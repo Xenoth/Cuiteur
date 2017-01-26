@@ -1,8 +1,9 @@
-Projet Cuiteur - Université de Franche Comté 2015-2016 - WEB (François Piat)
+Projet Cuiteur - Université de Franche Comté 2015-2016 - WEB (Enseignant François Piat)
 
 Authors :
 	-BAILLEUX Pol (PHP Master) 
 	-ROBLES Caroline (HTML/CSS Master)
+	-François Piat (Sujet, Conception BD)
 
 Site Web style Twitter réalisé dans le cadre du projet TP de Web
 
