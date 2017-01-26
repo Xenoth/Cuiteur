@@ -1,0 +1,269 @@
+/* ---------------------------------------------------------------
+			RE-INITIALISATION DES TAGS HTML
+	Pour éviter les valeurs par défaut différentes suivant les 
+	navigateurs. Seuls les tags le plus	souvent utilisés et non 
+	dépréciés sont pris en compte.
+	Reset complet : http://meyerweb.com/eric/tools/css/reset/
+--------------------------------------------------------------- */
+html, body, div, span, applet, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, img, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;	
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+	}	
+ol, ul {
+	list-style: none;
+	}
+table { 
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+/* ---------------------------------------------------------------
+	FEUILLE DE STYLE ORIGINALE	
+--------------------------------------------------------------- */
+html {
+	height: 100%
+	}
+body {
+	background: #20190f;
+	color: #e8dbb1;
+	font: 16px/1.6 Verdana, Geneva, Sans-Serif;
+	height: 100%;
+	}
+
+/** Bloc contenant toute la page 
+avec image de fond et centré */
+#bcPage {
+	background: url(../images/fond.jpg);
+	padding-bottom: 40px;
+	margin: 0 auto;
+	width: 800px;
+	}
+	
+/* ---------------------------------
+	 Définition des tags de titre 
+*/
+h1 {
+	border-bottom: 3px solid #e8dbb1;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 26px 0;
+	}
+	
+h2 {
+	font-size: 26px;
+	font-weight: bold;	
+	margin: 22px 0px;
+	
+	}
+h3 {
+	font-size: 20px;
+	font-weight: bold;	
+	margin: 18px 0;
+	}
+
+/* ---------------------------------
+	 Définition des autres tags 
+*/
+p {
+	margin: 16px 32px;	
+	}
+	
+a {
+	color: #3c96f1;
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+	
+strong {
+	font-weight: bold;
+	}
+	
+/* ---------------------------------
+	 Définition des classes pour
+	 les images flottantes à droite
+	 et à gauche
+*/
+.photoGauche {
+	float: left;
+	margin: 0 20px 0 -60px;
+	width: auto;
+	}
+	
+.photoDroite {
+	float: right;
+	margin: 0 -60px 0 20px;
+	width: auto;
+	}
+	
+/* classe pour les images moyens techniques */
+.technique {
+	float: left;
+	margin: 0 75px 20px 75px;
+	text-align: center;
+	width: 250px;
+	}
+	
+/* classe pour les 2 derniers paragraphes */
+.fort {
+	color: #EF9C3B;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 120px;
+	text-align: center;
+	}
+		
+/* pour obliger les éléments à s'afficher 
+sous un élément flotant */
+.clear {
+	clear: both;
+	}
+	
+/* ---------------------------------
+	 Définition des identifiants 
+*/
+
+/* utile surtout pour la marge top */
+#megaphone {
+	height: 440px;
+	margin-top: 30px;
+ 	width: 250px;
+ 	}
+ 	
+/* Bloc schema avec les images en
+positionnement absolu */
+#bcSchema {
+	height: 620px;
+	position: relative;
+	width: 800px;
+	}
+	
+#telephone1 {
+	height: 238px;
+	left: 0;
+	position: absolute;
+	top: 30px;
+	width: 300px;
+	}
+	
+#telephone3 {
+	height: 275px;
+	position: absolute;
+	right: 40px;
+	width: 330px;
+	}
+	
+#telephone4 {
+	height: 258px;
+	position: absolute;
+	right: 20px;
+	top: 320px;
+	width: 400px;
+	}	
+	
+#radio {
+	height: 288px;
+	left: 20px;
+	position: absolute;
+	top: 310px;
+	width: 280px;
+	}	
+
+#cuiteur {
+	height: 119px;
+	left: 100px;
+	position: absolute;
+	top: 220px;
+	width: 527px;
+	}
+
+/* Blocs pour le clavier avec effet
+d'opacité sous le texte */
+#bcBlablas {
+	background: url(../images/photos/clavier.jpg) no-repeat;
+	height: 304px;
+	width: 800px;
+	}
+
+#bcBlablas p {
+	font-weight: bold;
+	margin: 0 0 0 400px;
+	padding: 60px 25px;
+
+	/* tous sauf IE */
+	background: rgba(32, 25, 14, 0.7);
+	/* filtre dégradé : http://msdn.microsoft.com/en-us/library/ms532997%28VS.85%29.aspx
+	/* Pour IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BB20190f, endColorstr=#BB20190f)";
+	/* Pour IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BB20190f, endColorstr=#BB20190f);
+	}
+
+/* Bloc pour le pied de page */
+#bcPied {
+	background: url("../images/photos/moustique.jpg") no-repeat right top;
+	float: right;
+	font-size: 12px;
+	margin-top: 90px;
+	padding-right: 130px;
+	text-align: right;
+	width: 150px;
+	}
+	
+/* ---------------------------------------------------------------
+	PAGE MOYENS TECHNIQUES
+--------------------------------------------------------------- */
+.moyens {
+	padding-top: 20px;
+	text-align: center;
+	}
+	
+.moyens h2 {
+	margin: 0;
+	}
+
+.moyens img {
+	margin-top: 100px;
+	}
+	
+/* Bandeau supérieur fixe, avec opacité */
+#bandeau {
+	position: fixed;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	
+	/* tous sauf IE */
+	background: rgba(32, 25, 14, 0.6);
+	/* filtre dégradé : http://msdn.microsoft.com/en-us/library/ms532997%28VS.85%29.aspx
+	/* Pour IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#9920190f, endColorstr=#9920190f)";
+	/* Pour IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9920190f, endColorstr=#9920190f);
+	}
+	
+#bandeau h1 {
+	margin: 0 10px;
+	}
+	
+#bandeau a {
+	float: right;
+	margin: 18px;
+	width: auto;
+	}

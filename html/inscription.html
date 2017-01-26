@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="iso-8859-1">
+		<title>Cuiteur</title>
+		<link rel="stylesheet" href="../styles/index.css" type="text/css">
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+		<div id="bcPage">
+			<header>
+				<h2 id="title">Inscription</h2>
+				<img src="../images/trait.png" id="trait">
+			</header>
+			<aside>
+			</aside>
+			<section>
+				<p id="indications">Pour vous inscrire il suffit de :</p>
+				<table style="border-collapse:collapse; border-spacing:5 ;">
+				<form methode="POST" action="../php/inscription.php">
+					<tr>
+						<td class="alignDroit">Choisir un pseudo</td>
+						<td> <input type="text" name="txtPseudo" maxlength="20" size="15"> </td>
+					</tr>
+					<tr>
+						<td class="alignDroit">Choisir un mot de passe</td>
+						<td> <input type="password" name="txtPasse" maxlength="20" size="15"> </td>
+					</tr>
+					<tr>
+						<td class="alignDroit">R&eacutep&eacuteter le mot de passe</td>
+						<td> <input type="password" name="txtVerif" maxlength="20" size="15"> </td>
+					</tr>
+					<tr>
+						<td class="alignDroit">Indiquer votre nom</td>
+						<td> <input type="text" name="txtNom" maxlength="40" size="30"> </td>
+					</tr>
+					<tr>
+						<td class="alignDroit">Donner une adresse mail</td>
+						<td> <input type="text" name="txtMail" maxlength="40" size="30"> </td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="alignDroit"><input type="submit" name="btnValider" value="Je m'inscris" id="subInscr"> </td>
+					</tr>
+				</form>
+				</table>
+			</section>
+			<footer>
+				<ul id="bcPied">
+					<li><a href="../../index.html">A propos</a></li>
+					<li><a href="../../index.html">Publicit&eacute;</a></li>
+					<li><a href="../../index.html">Patati</a></li>
+					<li><a href="../../index.html">Aide</a></li>
+					<li><a href="../../index.html">Patata</a></li>
+					<li><a href="../../index.html">Stages</a></li>
+					<li><a href="../../index.html">Emplois</a></li>
+					<li><a href="../../index.html">Confidentialit&eacute;</a></li>				
+				</ul>
+			</footer>
+		</div>				
+	</body>
+</html>
+
+
+

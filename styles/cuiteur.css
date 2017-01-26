@@ -1,0 +1,392 @@
+/* ---------------------------------------------------------------
+			RE-INITIALISATION DES TAGS HTML
+	Pour éviter les valeurs par défaut différentes suivant les 
+	navigateurs. Seuls les tags le plus	souvent utilisés et non 
+	dépréciés sont pris en compte.
+	Reset complet : http://meyerweb.com/eric/tools/css/reset/
+--------------------------------------------------------------- */
+html, body, div, span, applet, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, img, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;	
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+	}	
+ol, ul {
+	list-style: none;
+	}
+table { 
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+/* ---------------------------------------------------------------
+	FEUILLE DE STYLE ORIGINALE	
+--------------------------------------------------------------- */
+html {
+	height: 100%
+	}
+body {
+	background: #20190f;
+	color: #e8dbb1;
+	font: 14px Verdana, Geneva, Sans-Serif;
+	height: 100%;
+	}
+
+#bcPage {
+	background: url(../images/fond.jpg);
+	height: 100%;
+	margin: 0 auto;
+	width: 800px;
+	}
+	
+/* ---------------------------------------------------------------
+	BLOC ENTETE
+--------------------------------------------------------------- */
+header {
+	background: url(../images/entete.jpg) no-repeat;
+	height: 271px;
+	position: relative;
+	}
+#headerBas {
+	position: relative;
+	top: 185px;
+	left: 250px;
+	width: 550px;
+}
+#title {
+	position: relative;
+	top: 165px;
+	color: orange;
+	font-weight: bold;
+	opacity: 0.6;
+	text-align: right;
+	}
+#trait {
+	position: absolute;
+	left: 190px;
+	top: 200px;
+}
+#indications {
+	position: relative;
+	top: -40px;
+}
+#btnDeconnexion {
+	background: url(../images/deconnexion.png) no-repeat;
+	height: 73px;
+	left: 732px;
+	position: absolute;
+	top: 14px;
+	width: 68px;
+	}
+
+#btnDeconnexion:hover {
+	background: url(../images/deconnexion_over.png) no-repeat;	
+	}
+	
+#btnHome {
+	background: url(../images/home.png) no-repeat;	
+	height: 44px;
+	left: 540px;
+	position: absolute;
+	top: 84px;
+	width: 48px;
+	}
+	
+#btnHome:hover {
+	background: url(../images/home_over.png) no-repeat;	
+	}
+
+#btnCherche {
+	background: url(../images/cherche.png) no-repeat;	
+	height: 40px;
+	left: 600px;
+	position: absolute;
+	top: 86px;	
+	width: 44px;
+	}
+	
+#btnCherche:hover {
+	background: url(../images/cherche_over.png) no-repeat;	
+	}
+
+#btnConfig {
+	background: url(../images/config.png) no-repeat;	
+	height: 40px;
+	left: 659px;
+	position: absolute;
+	top: 87px;	
+	width: 44px;
+	}
+	
+#btnConfig:hover {
+	background: url(../images/config_over.png) no-repeat;	
+	}
+
+/* -- FORMULAIRE DE SAISIE MESSAGE -- */
+#frmPublier {
+	background: url(../images/saisie.png) no-repeat;
+	height: 142px;
+	left: 272px;
+	position: absolute;
+	top: 127px;
+	width: 528px;
+	}
+	
+#txtMessage {
+	background: #f5f4f4;
+	border: 1px solid #b4b3b3;
+	color: #7a370d;
+	font: 14px Verdana, Geneva, Sans-Serif;
+	height: 55px;
+	left: 45px;
+	overflow: hidden;
+	position: absolute;
+	top: 26px;
+	width: 470px;
+	}
+	
+textarea:focus,
+input:focus {
+	outline: none;
+	}
+	
+textarea {
+	resize: none;
+	padding: 0;
+	}
+	
+#btnPublier {
+	background: url(../images/haut_parleur.png) no-repeat;
+	border: none;
+	cursor: pointer;
+	height: 44px;
+	left: 457px;
+	position: absolute;
+	top: 90px;
+	width: 52px;
+	color: transparent;
+	}
+	
+#btnPublier:hover {
+	background: url(../images/haut_parleur_over.png) no-repeat;
+	}
+	
+#btnPieceJointe {
+	background: url(../images/trombone.png) no-repeat;
+	height: 44px;
+	left: 52px;
+	position: absolute;
+	top: 90px;
+	width: 52px;
+	}
+	
+#btnPieceJointe:hover {
+	background: url(../images/trombone_over.png) no-repeat;
+	}
+
+#RechercheHeader {
+	position: relative;
+	left: 300px;
+	top: 200px;
+}
+/* ---------------------------------------------------------------
+	BLOC INFOS
+--------------------------------------------------------------- */
+aside {
+	background: url(../images/micro.jpg) no-repeat;
+	color: #efe7de;
+	font: bold 16px "Comic Sans MS", cursive, sans-serif;
+	float: left;
+	height: 450px;
+	padding-left: 15px;
+	width: 235px;
+	margin-bottom: 20px;
+	}
+	
+h3 {
+	font-size: 18px;
+	margin-top: 16px;
+	font-weight: bold;
+	}
+	
+aside img {
+	height: 50px;
+	margin: 0 4px 4px 0;
+	vertical-align: middle;
+	width: 50px;
+	}
+	
+aside li {
+	line-height: 1.2;
+	}
+.nomMini {
+	font-size: 12px;
+}
+/* ---------------------------------------------------------------
+	BLOC MESSAGES
+--------------------------------------------------------------- */
+section {
+	margin: 20px 0 0 250px;
+	width: 550px;
+}
+h2 {
+	font-size:32px;
+	}
+h1 {
+	font-size:20px;
+	padding-top: 20px;
+	}
+.alignDroit {
+	text-align: right;
+}
+.alignHaut {
+	text-align: right;
+	vertical-align: top;
+}
+.button {
+	background: url(../images/bouton.png) no-repeat;
+	background-size: 142px 42px;
+	border: none;
+	height: 42px;
+	width: 142px;
+	position: relative;
+	text-align: center;
+}
+section .button{
+	float: right;
+}
+.button:hover {
+	background: url(../images/bouton_over.png) no-repeat;
+}
+#bcMessages {
+	width: 550px;
+	}
+	
+#bcMessages li {
+	background: url(../images/fond_blabla.png);
+	margin: 0 0 10px 25px;
+	padding: 5px 5px 5px 35px;
+	}
+
+.imgAuteur {
+	float: left;
+	height: 50px;
+	margin-left: -60px;
+	margin-top: 5px;
+	width: 50px;
+	}
+.imgUtil {
+	float: left;
+	height: 50px;
+	margin-right: 10px;
+	margin-top: 5px;
+	width: 50px;
+}
+	
+.finMessage {
+	padding-top: 5px;
+	color: white;
+	font-size: 12px;
+}
+
+.finMessage a {
+	float: right;
+	margin-left: 20px;
+	width: auto;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	}
+
+.finMessage a:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	}
+	
+.hautMessage {
+	color: white;
+	font-size: 12px;
+}
+
+.hautMessage a{
+	font-size: 14px;
+}
+#bcMessages #bcPlus {
+	background: url(../images/speaker.png) no-repeat top right;
+	height: 75px;	
+	padding: 35px 80px 0 0;
+	text-align: right;
+	}
+a {
+	color: #3c96f1;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+	
+strong {
+	font-weight: bold;
+	}
+#titreSepar {
+	border-bottom: 2px solid #e8dbb1;
+	margin-bottom: 15px;
+}
+
+#titreSeparOrange {
+	color: orange;
+	border-bottom: 2px solid orange;
+	margin-bottom: 15px;
+	opacity: 0.6;
+}
+#tabCenter {
+	margin-top: 70px;
+	position: relative;
+	left: 140px;
+}
+ol {
+	list-style-type:arabic-numbers;
+	padding-left: 60px;
+}
+ol li {
+	padding-top: 5px;
+}
+/* ---------------------------------------------------------------
+	BLOC PIED DE PAGE
+--------------------------------------------------------------- */
+#bcPied {
+	background: url(../images/pied.png) no-repeat;
+	clear: both;
+	height: 65px;
+	padding: 10px 0 0 115px;
+	margin-top: 20px;
+	}
+	
+#bcPied li {
+	display: inline;
+	}
+	
+#bcPied a {
+	display: block;
+	float: left;
+	margin-right: 25px;
+	font-size: 12px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+	
+#bcPied a:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	}

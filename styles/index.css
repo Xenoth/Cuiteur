@@ -1,0 +1,165 @@
+/* ---------------------------------------------------------------
+			RE-INITIALISATION DES TAGS HTML
+	Pour éviter les valeurs par défaut différentes suivant les 
+	navigateurs. Seuls les tags le plus	souvent utilisés et non 
+	dépréciés sont pris en compte.
+	Reset complet : http://meyerweb.com/eric/tools/css/reset/
+--------------------------------------------------------------- */
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, img, strong, ol, ul, li,
+fieldset, form, label, legend,
+table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;	
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+	}	
+ol, ul {
+	list-style: none;
+	}
+table { 
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+	
+/* ---------------------------------------------------------------
+	FEUILLE DE STYLE ORIGINALE	
+--------------------------------------------------------------- */
+html {
+	height: 100%
+	}
+body {
+	background: #20190f;
+	color: #e8dbb1;
+	font: 14px Verdana, Geneva, Sans-Serif;
+	height: 100%;
+	}
+
+#bcPage {
+	background: url(../images/fond.jpg);
+	height: 100%;
+	margin: 0 auto;
+	width: 800px;
+	}
+h3 {
+	font-size:26px;
+	}
+
+h2 {
+	font-size:32px;
+	}
+/* ---------------------------------------------------------------
+	BLOC ENTETE
+--------------------------------------------------------------- */
+header {
+	background: url(../images/entete_deconnecte.jpg) no-repeat;
+	height: 271px;
+	position: relative;
+	}
+#title {
+	position: relative;
+	top: 165px;
+	color: orange;
+	font-weight: bold;
+	opacity: 0.6;
+	text-align: right;
+	}
+#trait {
+	position: absolute;
+	left: 190px;
+	top: 200px;
+	}
+#indications {
+	position: relative;
+	top: -40px;
+}
+/* ---------------------------------------------------------------
+	BLOC INFOS
+--------------------------------------------------------------- */
+aside {
+	background: url(../images/micro.jpg) no-repeat;
+	color: #efe7de;
+	font: bold 16px "Comic Sans MS", cursive, sans-serif;
+	float: left;
+	height: 450px;
+	padding-left: 15px;
+	width: 235px;
+	}
+/* ---------------------------------------------------------------
+	BLOC MESSAGES
+--------------------------------------------------------------- */
+section {
+	margin-right: 50px;
+}
+
+p {
+	margin: 15px;
+}
+
+a {
+	color: #3c96f1;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+	
+strong {
+	font-weight: bold;
+	}
+
+.alignDroit {
+	text-align: right;
+}
+
+#subInscr {
+	background: url(../images/bouton.png) no-repeat;
+	background-size: 142px 42px;
+	border: none;
+	height: 42px;
+	width: 142px;
+	position: relative;
+	text-align: center;
+}
+
+#subInscr:hover {
+	background: url(../images/bouton_over.png) no-repeat;
+}
+
+/* ---------------------------------------------------------------
+	BLOC PIED DE PAGE
+--------------------------------------------------------------- */
+footer{
+	background: url(../images/pied.png) no-repeat;
+	clear: both;
+	height: 65px;
+	padding: 10px 0 0 115px;
+	margin-top: 20px;
+	}
+	
+footer li {
+	display: inline;
+	}
+	
+footer a {
+	display: block;
+	float: left;
+	margin-right: 25px;
+	font-size: 12px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+	
+footer a:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	}

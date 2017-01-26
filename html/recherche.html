@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="iso-8859-1">
+		<title>Cuiteur</title>
+		<link rel="stylesheet" href="../styles/cuiteur.css" type="text/css">
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	</head>
+	
+	<body>
+		<div id="bcPage">
+			<header>
+				<a id="btnDeconnexion" href="index.php" title="Se d&eacute;connecter de cuiteur"></a>
+				<a id="btnHome" href="cuiteur.php" title="Ma page d'accueil"></a>
+				<a id="btnCherche" href="../../index.html" title="Rechercher des personnes &agrave suivre"></a>
+				<a id="btnConfig" href="compte.php" title="Modifier mes informations personnelles"></a>	
+				<h2 id="title">Rechercher des utilisateurs</h2>
+				<img src="../images/trait.png" id="trait">
+				<div id="headerBas">
+					<table border="1" cellpadding="4" cellspacing="0">
+					<form method="GET" action="compte.php">
+						<tr>
+							<td> <input type="text" name="usRecherche" size="30"> </td>
+							<td class="alignDroit"> <input type="submit" name="btnRecherche" value="Rechercher" class="button"> </td>
+						</tr>
+					</form>
+					</table>
+				</div>
+			</header>
+
+			<aside>
+				<h3>Utilisateur</h3>
+				<ul>
+					<li>
+						<img src="../images/upload/23.jpg">
+						<a href="../../index.html" title="Afficher mon CV">chuck</a> <span class="nomMini">Chuck Norris</span>
+					</li>
+					<li><a href="../../index.html" title="Voir la liste des mes messages">5 blablas</a></li>
+					<li><a href="../../index.html" title="Voir les personnes que je suis">4 abonnements</a></li>
+					<li><a href="../../index.html" title="Voir les personnes qui me suivent">1 abonn&eacute;s</a></li>					
+				</ul>
+				<h3>Tendances</h3>
+				<ul>
+					<li><a href="../../index.html" title="Voir les messages">z&eacute;ro</a></li>
+					<li><a href="../../index.html" title="Voir les messages">QuestionsExistentielle</a></li>
+					<li><a href="../../index.html" title="Voir les messages">Aie</a></li>	
+					<li><a href="../../index.html" title="Voir les messages">Jedi</a></li>
+					<li><a href="../../index.html" title="Voir les messages">Toutes les tendances</a></li>
+				</ul>
+				<h3>Suggestions</h3>				
+				<ul>
+					<img src="../images/upload/4.jpg">
+						<a href="../../index.html" title="Afficher mon CV">paulo</a> <span class="nomMini">Jean Paul Sartre</span>	
+					<img src="../images/upload/3.jpg">
+						<a href="../../index.html" title="Afficher mon CV">albert</a> <span class="nomMini">Albert Einstein</span>
+					<li><a href="../../index.html" title="Voir les messages">Plus de suggestions</a></li>
+				</ul>				
+			</aside>
+
+			<section>
+				<h3 id="titreSeparOrange" class="alignDroit">R&eacute;sultats de la recherche</h3>
+				<li class="resRecherche">
+					<img src="../images/upload/3.jpg" class="imgAuteur">
+					<p><a href="../../utilisateur.html">albert</a> Albert Einstein</p>
+					<p><a href="../../blablas.html">4 blablas</a> - <a href="../../mentions.html">6 mentions</a> - <a href="../../abonnes.html">3 abonn&eacute;s</a> - <a href="../../abonnements.html">3 abonnements</a></p>
+					<p class="alignDroit"><input type="checkbox" name="choixAbonne">S'abonner</p>
+				</li>
+				<li class="resRecherche">
+					<img src="../images/upload/6.jpg" class="imgAuteur">
+					<p><a href="../../utilisateur.html">chomsky</a> Noam Chomsky</p>
+					<p><a href="../../blablas.html">4 blablas</a> - <a href="../../mentions.html">6 mentions</a> - <a href="../../abonnes.html">3 abonn&eacute;s</a> - <a href="../../abonnements.html">3 abonnements</a></p>
+					<p class="alignDroit"><input type="checkbox" name="choixAbonne">Se d&eacute;sabonner</p>
+				</li>
+				<input type="submit" name="btnValider" value="Valider" class="button">
+			</section>
+
+			<footer>
+				<ul id="bcPied">
+					<li><a href="../../index.html">A propos</a></li>
+					<li><a href="../../index.html">Publicit&eacute;</a></li>
+					<li><a href="../../index.html">Patati</a></li>
+					<li><a href="../../index.html">Aide</a></li>
+					<li><a href="../../index.html">Patata</a></li>
+					<li><a href="../../index.html">Stages</a></li>
+					<li><a href="../../index.html">Emplois</a></li>
+					<li><a href="../../index.html">Confidentialit&eacute;</a></li>				
+				</ul>
+			</footer>
+		</div>				
+	</body>
+</html>
+
+
+
