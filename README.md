@@ -21,3 +21,4 @@ Base de données fournies en format SQL dans la racine
 Fonctionnalitées manquantes :
 	-Chiffrement de l'url
 	-Upload d'un Avatar
+	-Hashage des mots de passe
