@@ -24,13 +24,13 @@ Don't forget to import the Database, you can use PHPmyAdmin to importe easily th
 sudo apt-get install phpmyadmin
 ```
 
-##Authors :
-*BAILLEUX Pol (PHP Master) 
-*ROBLES Caroline (HTML/CSS Master)
-*PIAT François (Teacher, Subject, DataBase Conception)
+##Authors
+* BAILLEUX Pol (PHP Master) 
+* ROBLES Caroline (HTML/CSS Master)
+* PIAT François (Teacher, Subject, DataBase Conception)
 
 
-##Missing features :
-*encrypting URL
-*Avatar's Upload
-*passwords's Hashing
+##Missing features
+* encrypting URL
+* Avatar's Upload
+* passwords's Hashing
