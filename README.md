@@ -15,19 +15,17 @@ First install all package required :
 ```
 sudo apt install apache2 php mysql-server libapache2-mod-php php-mysql
 ```
-Check if your Server is well installed using the URLs http://localhost or http://127.0.0.1 (You should see a "It Works!" page)
-
-Configue your server and mySQL if required, now you can put the whole project cuiteur on the Directory /var/www/html/
-
+Check if your Server is well installed using the URLs http://localhost or http://127.0.0.1 (You should see a "It Works!" page)<br>
+Configue your server and mySQL if required, now you can put the whole project cuiteur on the Directory /var/www/html/<br>
 Don't forget to import the Database, you can use PHPmyAdmin to importe easily the given .SQL file on root
 ```
 sudo apt-get install phpmyadmin
 ```
 
 ##Authors
-* BAILLEUX Pol (PHP Master) 
+* BAILLEUX Pol (@Xenoth - PHP Master) 
 * ROBLES Caroline (HTML/CSS Master)
-* PIAT François (Teacher, Subject, DataBase Conception)
+* PIAT François (Teacher, Project Topic, DataBase Conception)
 
 
 ##Missing features
